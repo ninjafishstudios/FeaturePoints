@@ -5,12 +5,12 @@ Pod::Spec.new do |s|
   s.summary  = 'FeaturePoints for analytics reporting.'
   s.homepage = 'http://www.featurepoints.com'
   s.author   = { 'FeaturePoints' => 'http://www.featurepoints.com' }
-  s.source   = { :git => 'https://github.com/williamlocke/FeaturePoints.git', :tag => '1.0.0' }
+  s.source   = { :git => 'https://github.com/ninjafishstudios/FeaturePoints.git', :tag => '1.0.0' }
   s.description = 'FeaturePoints for analytics tracking and reporting.'
   s.platform = :ios
   s.source_files   = 'Classes/**/*.h'
   s.preserve_paths = 'Classes/**/*.a'
-  s.library    = 'FP.a'
+  s.library    = 'FP'
   s.xcconfig   =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/FeaturePoints/Classes"' }
   s.frameworks = 'SystemConfiguration', 'UIKit', 'Security', 'CoreGraphics'
 end
